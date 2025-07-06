@@ -1,0 +1,102 @@
+@charset "utf-8";
+ul {
+  list-style: none;
+}
+#joinWrap {
+  width: 80%;
+  margin: 100px auto;
+}
+#joinWrap form {
+  width: 80%;
+  margin: 20px auto;
+}
+#joinWrap h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 25px;
+}
+#joinWrap > p {
+  text-align: center;
+  color: #888;
+  font-size: 13px;
+  padding: 15px 0 20px;
+}
+#joinWrap .title {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #cdcdcd;
+}
+#joinWrap .title h2 {
+  font-weight: 800;
+  font-size: 13px;
+}
+#joinWrap .title p {
+  color: #888;
+}
+/* form css 시작 */
+#joinWrap form ul li label,
+#joinWrap form ul li p {
+  width: 200px;
+  font-size: 13px;
+  color: #888;
+}
+#joinWrap form ul li input {
+  border: 1px solid #cdcdcd;
+  padding: 5px 10px;
+  font-size: 13px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+#joinWrap span {
+  display: inline-block;
+  color: #eb252b;
+  width: 15px;
+  font-size: 10px;
+}
+#joinWrap form ul li label {
+  display: inline-block;
+  width: 150px;
+}
+#joinWrap form ul li #userAddSearch {
+  background: #555;
+  color: #f1f1f1;
+  margin-left: 10px;
+  padding: 2px 10px;
+  font-size: 12px;
+}
+#joinWrap form ul li #userAddress,
+#joinWrap form ul li #detailAddress {
+  width: 70%;
+  margin-top: 6px;
+  margin-left: 155px;
+}
+#joinWrap form ul li .service {
+  width: 150px;
+}
+#joinWrap form ul li.serviceItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+#joinWrap form ul li #infoMail,
+#joinWrap form ul li #infoPhone {
+  margin-bottom: 0;
+  width: 30px;
+}
+#joinWrap form ul li.serviceItem label {
+  width: 200px;
+  font-size: 13px;
+  color: #555;
+}
+/* 회원가입버튼 css */
+#joinWrap form .btn{
+  text-align: center;
+}
+#joinWrap form #joinBtn {
+  margin-bottom: 120px;
+  background: #222;
+  color: #fff;
+  padding: 15px 60px;
+}
